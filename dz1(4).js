@@ -7,7 +7,7 @@ function checkPosverd(posverd){
     } if ( posverd === `JavaScript`) {
         return (`true`)
     } else {
-        return (`fols`)
+        return (`false`)
     }
 }
 checkPosverd(``)
