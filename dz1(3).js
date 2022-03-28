@@ -5,12 +5,14 @@ function createHeaders(N){
     let i = 1;
   
     while(i <= N) {
-      console.log(`<h2>Header${i}<h2>`)
+      document.write(`<h2>Header${i}<h2>`)
+      //console.log(`<h2>Header${i}<h2>`)
   
     i++
     }
   
   }
+ 
   
   
   createHeaders(100)
